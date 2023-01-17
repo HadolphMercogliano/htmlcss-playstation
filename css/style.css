@@ -22,7 +22,7 @@ main {
     background-position: center;
 }
 
-#jumbotron img {
+.jumbotron-main img {
     width: 60%;
 }
 
