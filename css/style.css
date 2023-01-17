@@ -1,4 +1,7 @@
 /* GENERICS */
+img {
+    max-width: 100%;
+}
 
 /* HEADER */
 #header-top {
@@ -11,8 +14,8 @@ main {
     padding-top: 100px;
 }
 
-.jumbotron-main {
-    background-color: black;
+#jumbotron {
+    /* background-color: black; */
 }
 
 .jumbotron-main {
@@ -22,8 +25,20 @@ main {
     background-position: center;
 }
 
-.jumbotron-main img {
-    width: 60%;
+.main-carousel img:not(.selected) {
+    opacity: 0.7;
 }
+
+.games-jumbotron {
+    /* height: 60vh; */
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#first-subscription {
+    background-color: #bebcbb;
+}
+
 
 /* FOOTER */
