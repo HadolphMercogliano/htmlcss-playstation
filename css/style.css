@@ -9,6 +9,11 @@ img {
     height: 25px;
 }
 
+#header-main a {
+    color: #212529;
+    font-weight: 600;
+}
+
 /* MAIN */
 main {
     padding-top: 100px;
@@ -40,5 +45,20 @@ main {
     background-color: #bebcbb;
 }
 
+#second-subscription {
+    background-color: #161c3b;
+}
 
 /* FOOTER */
+#footer-main {
+    background-color: #00439c;
+}
+
+#footer-main #sie-logo {
+    width: 180px;
+}
+
+#footer-main ul li a {
+    color: white;
+    text-decoration: none;
+}
