@@ -1,7 +1,29 @@
 /* GENERICS */
 
 /* HEADER */
+#header-top {
+    background-color: black;
+    height: 25px;
+}
 
 /* MAIN */
+main {
+    padding-top: 100px;
+}
+
+.jumbotron-main {
+    background-color: black;
+}
+
+.jumbotron-main {
+    height: 75vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#jumbotron img {
+    width: 60%;
+}
 
 /* FOOTER */
