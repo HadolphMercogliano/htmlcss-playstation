@@ -3,6 +3,15 @@ img {
     max-width: 100%;
 }
 
+.h1 {
+    font-size: calc(2rem + 1.6vw);
+}
+
+.btn-red {
+    color: white;
+    background-color: #cd3d0f;
+}
+
 /* HEADER */
 #header-top {
     background-color: black;
