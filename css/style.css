@@ -13,14 +13,14 @@ img {
 }
 
 header .btn:hover {
-    outline: 1px solid black;
-    border: 1px solid white;
     background-color: #212529;
+    box-shadow: inset 0px 0px 0px 2px white;
+    border: 1px solid black;
 }
 
 .btn-primary:hover {
-    border: 1px solid white;
-    outline: 2px solid #0d6efd;
+    box-shadow: inset 0px 0px 0px 2px white;
+    border: 1px solid #0d6efd;
 }
 
 .btn-red {
@@ -30,9 +30,9 @@ header .btn:hover {
 }
 
 .btn-red:hover {
-    background-color: #a7330c;
-    border: 1px solid black;
-    outline: 2px solid #cd3d0f;
+    background-color: #cd3d0f;
+    box-shadow: inset 0px 0px 0px 2px black;
+    border: 1px solid #cd3d0f;
 }
 
 .btn-subscription-1 {
@@ -40,15 +40,16 @@ header .btn:hover {
 }
 
 .btn-subscription-1:hover {
-    border: 1px solid #bebcbb;
-    outline: 2px solid #d9dadc;
+    box-shadow: inset 0px 0px 0px 2px black;
+    border: 1px solid #d9dadc;
     background-color: #d9dadc;
 }
 
 .btn-subscription-2:hover {
-    border: 1px solid black;
-    outline: 2px solid white;
     background-color: white;
+    box-shadow: inset 0px 0px 0px 2px black;
+    border: 1px solid white;
+}
 }
 
 
@@ -92,12 +93,22 @@ main {
 
 .jumbotron-carousel img {
     position: relative;
-    transition: 0.5s ease-in-out;
 }
 
 .jumbotron-carousel img:hover {
     bottom: 10px;
-    transition: 0.5s ease-in-out;
+    animation-name: position;
+    animation-duration: 1s;
+}
+
+@keyframes position {
+    from {
+        bottom: 0;
+    }
+
+    to {
+        bottom: 10;
+    }
 }
 
 .main-carousel img:not(.selected) {
