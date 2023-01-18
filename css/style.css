@@ -40,8 +40,8 @@ header .btn:hover {
 }
 
 .btn-subscription-1:hover {
-    box-shadow: inset 0px 0px 0px 2px black;
-    border: 1px solid #d9dadc;
+    box-shadow: 0px 0px 0px 2px #d9dadc;
+    /* border: 1px solid #d9dadc; */
     background-color: #d9dadc;
 }
 
@@ -50,9 +50,6 @@ header .btn:hover {
     box-shadow: inset 0px 0px 0px 2px black;
     border: 1px solid white;
 }
-}
-
-
 
 .fs-7 {
     font-size: 0.9rem;
