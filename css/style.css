@@ -4,12 +4,35 @@ img {
 }
 
 .h1 {
-    font-size: calc(2rem + 1.6vw);
+    font-size: calc(1.8rem + 1.6vw);
+}
+
+.btn {
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 .btn-red {
     color: white;
     background-color: #cd3d0f;
+}
+
+.btn-red:hover {
+    background-color: #a7330c;
+
+}
+
+.btn-subscription-1 {
+    background-color: #d9dadc;
+}
+
+
+.fs-7 {
+    font-size: 0.9rem;
+}
+
+.fs-8 {
+    font-size: 0.8rem;
 }
 
 /* HEADER */
@@ -25,11 +48,12 @@ img {
 
 /* MAIN */
 main {
-    padding-top: 100px;
+    padding-top: 101px;
 }
 
-#jumbotron {
-    /* background-color: black; */
+.jumbotron-main .container,
+.jumbotron-main .row {
+    height: 100%;
 }
 
 .jumbotron-main {
@@ -61,6 +85,10 @@ main {
 /* FOOTER */
 #footer-main {
     background-color: #00439c;
+}
+
+#ps-footer-logo {
+    width: 20%;
 }
 
 #footer-main #sie-logo {
